@@ -22,11 +22,40 @@
         body, h1, p {
             margin: 0;
         }
+
+        .title {
+            color: #3f3732;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            padding-top: 5vh;
+        }
+
+        .title > h1 {
+            font-size: 22px;
+            background-color: white;
+            padding: 8px 16px;
+            border-radius: 16px;
+            margin-bottom: 16px;
+        }
+
+        .title > p {
+            font-size: 18px;
+        }
+
+        .title > p > span {
+            font-size: 22px;
+        }
     </style>
 </head>
 <body>
     <div class="background">
-        
+        <div class="title">
+            <h1>덕담 하나 주면 안 잡아먹지!</h1>
+            <p>받은 덕담 : <span>2개</span></p>
+        </div>
     </div>
 </body>
 </html>
